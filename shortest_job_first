@@ -1,5 +1,5 @@
 int led_array[] = {2, 3, 4, 5, 6, 7}; // output pins
-int cpu_burst[] = {8000, 6000, 4000, 3000, 10000, 7000}; // cpu_burst values
+int cpu_burst[] = {8000, 6000, 4000, 3000, 10000, 7000}; // milliseconds
 int temp;
 int temp2;
 void setup() {
