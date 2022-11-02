@@ -4,13 +4,13 @@ int time_quantum = 2000; //2 seconds
 int remaining_time;
 void setup() {
   // set up all the LEDs as OUTPUT
-  for(int i=0; i<6; i++){
+  for(int i = 0; i < 6; i++){
   pinMode(led_array[i], OUTPUT);
   } 
 }
 
 void loop() {
-  for(int i=0; i<6; i++){
+  for(int i = 0; i < 6; i++){
   	remaining_time = cpu_burst[i] - time_quantum; // for getting the remaining time of each process
     delay(500);
     if(remaining_time!=0){ 
