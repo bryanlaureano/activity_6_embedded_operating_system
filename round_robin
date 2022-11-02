@@ -1,6 +1,6 @@
 int led_array[] = {2, 3, 4, 5, 6, 7}; // output pins
-int cpu_burst[] = {8000, 6000, 4000, 10000,12000, 8000}; //  cpu_burst values
-int time_quantum = 2000; //2 seconds
+int cpu_burst[] = {8000, 6000, 4000, 10000,12000, 8000}; //  milliseconds
+int time_quantum = 2000; // milliseconds
 int remaining_time;
 void setup() {
   // set up all the LEDs as OUTPUT
